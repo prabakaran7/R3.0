@@ -1,4 +1,4 @@
-package com.praba.myproject.app;
+package com.praba.myproject;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
