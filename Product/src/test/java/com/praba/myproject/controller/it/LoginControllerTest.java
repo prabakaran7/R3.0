@@ -34,7 +34,7 @@ public class LoginControllerTest {
 
 		MultiValueMap<String, String> map = new LinkedMultiValueMap<String, String>();
 		map.add("userId", "praba");
-		map.add("password", "parba");
+		map.add("password", "praba");
 		HttpEntity<MultiValueMap<String, String>> request = new HttpEntity<MultiValueMap<String, String>>(map, headers);
 		ResponseEntity<Login> responseEntity = restTemplate.postForEntity("/login", request, Login.class);
 		assertEquals(HttpStatus.OK, responseEntity.getStatusCode());
